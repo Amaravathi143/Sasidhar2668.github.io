@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aduri Group Infra Private Limited - K. Sasidhar Reddy</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light blue-gray background */
+        }
+        /* Custom styles for elements not easily covered by Tailwind */
+        .hero-background {
+            /* Removed background-image property entirely */
+            background-color: #64748b; /* Solid background color for the hero section */
+        }
+        .contact-form-bg {
+            background-color: #e2e8f0; /* Lighter blue-gray for form */
+        }
+        .budhera-highlight-bg {
+            background-image: url('http://googleusercontent.com/file_content/4'); /* Budhera.jpg */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-lg py-4 px-6 md:px-12 flex justify-between items-center rounded-b-lg">
+        <div class="text-xl md:text-2xl font-bold text-blue-700">
+            <a href="#" class="hover:text-blue-900">Aduri Group Infra Pvt Ltd</a>
+        </div>
+        <div class="hidden md:flex space-x-8">
+            <a href="#home" class="text-gray-700 hover:text-blue-700 font-medium transition duration-300">Home</a>
+            <a href="#about" class="text-gray-700 hover:text-blue-700 font-medium transition duration-300">About Us</a>
+            <a href="#projects" class="text-gray-700 hover:text-blue-700 font-medium transition duration-300">Projects</a>
+            <a href="#testimonials" class="text-gray-700 hover:text-blue-700 font-medium transition duration-300">Testimonials</a>
+            <a href="#contact" class="text-gray-700 hover:text-blue-700 font-medium transition duration-300">Contact</a>
+        </div>
+        <!-- Mobile Menu Button (Hamburger) -->
+        <div class="md:hidden">
+            <button id="mobile-menu-button" class="text-gray-700 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div id="mobile-menu" class="hidden bg-white shadow-lg py-4 px-6 md:hidden rounded-b-lg">
+        <a href="#home" class="block py-2 text-gray-700 hover:text-blue-700 font-medium">Home</a>
+        <a href="#about" class="block py-2 text-gray-700 hover:text-blue-700 font-medium">About Us</a>
+        <a href="#projects" class="block py-2 text-gray-700 hover:text-blue-700 font-medium">Projects</a>
+        <a href="#testimonials" class="block py-2 text-gray-700 hover:text-blue-700 font-medium">Testimonials</a>
+        <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-700 font-medium">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-background h-[60vh] md:h-[80vh] flex items-center justify-center text-center text-white p-6 rounded-lg m-4">
+        <div class="bg-black bg-opacity-50 p-8 rounded-xl max-w-2xl">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">
+                Your Future Property Awaits with <span class="text-blue-400">Aduri Group Infra Private Limited</span>
+            </h1>
+            <p class="text-lg md:text-xl mb-8">
+                Your trusted partner for premium <span class="text-blue-300 font-semibold">residential plots, villas, farm lands, and weekend houses</span>.
+            </p>
+            <a href="#about" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                Learn More About Us
+            </a>
+        </div>
+    </section>
+
+    <!-- Budhera Project Highlight Section -->
+    <section id="budhera-highlight" class="budhera-highlight-bg h-[50vh] flex items-center justify-center text-center text-white p-6 rounded-lg m-4 shadow-md">
+        <div class="bg-black bg-opacity-60 p-8 rounded-xl max-w-3xl">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight text-yellow-300">
+                GOLDEN HEIGHTS @ BUDHERA
+            </h2>
+            <p class="text-2xl md:text-3xl font-bold mb-4">
+                63 Acres DTCP Layout
+            </p>
+            <p class="text-xl md:text-2xl mb-6">
+                <span class="text-green-400 font-bold">Bookings Open Now!</span> Special Launch Discounts Running!
+            </p>
+            <a href="#contact" class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                Inquire About Budhera
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-6 md:px-12 bg-white rounded-lg m-4 shadow-md">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">About Aduri Group Infra Private Limited</h2>
+            <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                Welcome! I'm <span class="text-blue-700 font-bold">K. Sasidhar Reddy</span>, a Marketing Associate at **Aduri Group Infra Private Limited**. We are recognized as **one of the Top Real Estate Companies in Telangana**, with over **25 years of experience** in the industry. Our commitment to excellence has earned us prestigious accolades, including the **Best Real Estate Company Award from HMTV in 2023** and the **Best Excellence Award by Economic Times in 2021**.
+            </p>
+            <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                As an **ISO & RERA Certified Company**, we specialize in high-quality and legally compliant **open plot ventures** and **farmlands**. We have successfully completed **50+ ventures**, with **17 ventures currently running**, strategically located across <span class="text-blue-500 font-semibold">Warangal Highway / Vijayawada Highway / Bangalore Highway / Mumbai Highway</span>. Our portfolio includes <span class="text-blue-500 font-semibold">HMDA, DTCP, FARMLAND PLOTS & MUDA Layouts</span>.
+            </p>
+            <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                We offer plots starting from <span class="text-blue-500 font-semibold">₹8399 to ₹23000 per sq yd</span>, with **EMI facility available** to make your dream property accessible. Our brand is further strengthened by **Telugu Cine Actor Varun Tej as our Brand Ambassador**, and our presence is amplified through **ads and scrollings in more than 8 Telugu News Channels**. We also provide a **Bank Loan Facility** for our clients.
+            </p>
+            <p class="text-lg text-gray-700 leading-relaxed">
+                We believe in creating not just properties, but communities and dream spaces. Let's connect to find the perfect property that fits your vision and investment goals.
+            </p>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="py-16 px-6 md:px-12 bg-gray-50 rounded-lg m-4 shadow-md">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-gray-900 text-center mb-12">Featured & Fast-Filling Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Project Card: Aduri's Golden Heights - Health Village -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="http://googleusercontent.com/file_content/1" alt="Aduri's Golden Heights - Health Village" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Aduri's Golden Heights - Health Village</h3>
+                        <p class="text-blue-600 text-xl font-bold mb-3">Plots Starting from ₹16,299 per sq yd</p>
+                        <p class="text-gray-600 mb-4">Total 100 Acres | Approx. 1000 Plots (Avg. 150-200 Sq. Yds)</p>
+                        <p class="text-gray-700 text-sm mb-2">A unique health village concept project on Bangalore Highway @ Balanagar. Features include Ayurvedic/Naturopathy centers, senior citizen retired homes, walking tracks, solar lights, and regular cultural activities.</p>
+                        <p class="text-green-700 text-sm font-semibold">Approvals: DTCP, HMDA (as per Aduri Group standards)</p>
+                        <a href="#contact" class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition duration-300">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Project Card: Dream Valley-3 - Premium Luxury Farm Plots -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="http://googleusercontent.com/file_content/2" alt="Dream Valley-3 - Premium Luxury Farm Plots" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Dream Valley-3 - Premium Luxury Farm Plots</h3>
+                        <p class="text-blue-600 text-xl font-bold mb-3">Farmhouse Option: ₹15 Lakhs Only</p>
+                        <p class="text-gray-600 mb-4">@ Shadnagar | Get Rental Income Min. ₹30K/Month</p>
+                        <p class="text-gray-700 text-sm mb-2">Own a farmhouse with nature, offering high appreciation, rental income, and luxury entertainment. Includes amenities like swimming pool, cottages, mini club house, weekend home, indoor games, and children play area.</p>
+                        <p class="text-green-700 text-sm font-semibold">Approvals: HMDA, RERA (as per Aduri Group standards)</p>
+                        <a href="#contact" class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition duration-300">Inquire Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="#contact" class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                    Contact for All Aduri Group Projects
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 px-6 md:px-12 bg-white rounded-lg m-4 shadow-md">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold text-gray-900 mb-12">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-blue-50 p-8 rounded-xl shadow-md">
+                    <p class="text-lg italic text-gray-700 mb-4">
+                        "Aduri Group Infra Private Limited helped us find the perfect residential plot. <span class="text-blue-700 font-bold">K. Sasidhar Reddy</span> provided exceptional service and made the process very smooth. We're thrilled with our new property!"
+                    </p>
+                    <p class="font-semibold text-gray-800">- Priya S., Residential Plot Buyer</p>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-blue-50 p-8 rounded-xl shadow-md">
+                    <p class="text-lg italic text-gray-700 mb-4">
+                        "Investing in a farmland with Aduri Group was a wise decision. Their transparency regarding approvals and clear communication, especially from <span class="text-blue-700 font-bold">K. Sasidhar Reddy</span>, was highly appreciated. A truly reliable company!"
+                    </p>
+                    <p class="font-semibold text-gray-800">- Rajesh K., Farmland Investor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-6 md:px-12 contact-form-bg rounded-lg m-4 shadow-md">
+        <div class="max-w-xl mx-auto text-center">
+            <h2 class="text-4xl font-bold text-gray-900 mb-8">Get in Touch with Aduri Group</h2>
+            <p class="text-lg text-gray-700 mb-8">
+                Ready to explore your property options with Aduri Group Infra Private Limited? Contact <span class="text-blue-700 font-bold">K. Sasidhar Reddy</span> today for expert guidance.
+            </p>
+            <form class="bg-white p-8 rounded-xl shadow-lg">
+                <div class="mb-6 text-left">
+                    <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name:</label>
+                    <input type="text" id="name" name="name" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Name">
+                </div>
+                <div class="mb-6 text-left">
+                    <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email:</label>
+                    <input type="email" id="email" name="email" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="your.email@example.com">
+                </div>
+                <div class="mb-6 text-left">
+                    <label for="phone" class="block text-gray-700 text-sm font-bold mb-2">Phone:</label>
+                    <input type="tel" id="phone" name="phone" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Phone Number" value="8886316288">
+                </div>
+                <div class="mb-6 text-left">
+                    <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message:</label>
+                    <textarea id="message" name="message" rows="5" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Tell us about your property needs..."></textarea>
+                </div>
+                <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                    Send Message
+                </button>
+            </form>
+            <p class="text-lg text-gray-700 mt-8">
+                You can also reach <span class="text-blue-700 font-bold">K. Sasidhar Reddy</span> directly at: <span class="font-semibold text-blue-700">8886316288</span> or <span class="font-semibold text-blue-700">9346406010</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8 px-6 md:px-12 text-center rounded-t-lg m-4">
+        <p>&copy; 2025 Aduri Group Infra Private Limited. All rights reserved.</p>
+        <div class="mt-4 flex justify-center space-x-6">
+            <a href="#" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a>
+            <a href="#" class="text-gray-400 hover:text-white transition duration-300">Terms of Service</a>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
